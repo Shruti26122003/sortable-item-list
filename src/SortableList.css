@@ -1,0 +1,175 @@
+/* Main container styling */
+.sortable-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://example.com/hogwarts-background.jpg'); /* Replace with the actual background image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Title styling */
+  .sortable-container h3 {
+    font-family: 'Harry P', serif; /* Replace with a Harry Potter font if available */
+    font-size: 2rem;
+    color: #ffdb58; /* A magical golden color */
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 20px;
+  }
+  
+  /* List container */
+  .sortable-list {
+    width: 250px;
+    border: 2px solid #4b2e0e; /* Dark brown border */
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for magic effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Individual item */
+  .sortable-item {
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #e8d3b9; /* Light parchment color */
+    border: 1px solid #4b2e0e;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: grab;
+    overflow: hidden;
+  }
+  
+  /* Image styling */
+  .sortable-image {
+    width: 200px;  /* Set a fixed width for all images */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image scales properly and maintains aspect ratio */
+    border-radius: 5px;
+  }
+
+  .image-name {
+    margin-top: 8px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  /* Dragging ghost effect */
+  .sortable-ghost {
+    opacity: 0.5;
+    border: 2px dashed #4b2e0e;
+  }
+  
+  /* Voldemort image container */
+.voldemort-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%; /* Adjust position from top */
+    right: 10%; /* Position on the right side of the screen */
+    text-align: center;
+    margin: 8px 0;
+    background-color: #e8d3b9;
+    border: 1px solid #4b2e0e;
+    border-radius: 8px;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Voldemort image styling */
+  .voldemort-image {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Button styling under Voldemort image */
+  .voldemort-button {
+    margin-top: 15px;
+    padding: 15px 20px;
+    background-color: #ffdb58; /* Magical golden color */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #4b2e0e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .voldemort-button:hover {
+    background-color: #f1c232;
+    color: #fff;
+  }
+
+  /* Sorcerer's Stone image container */
+.sorcerers-stone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    margin: 8px 0;
+    background-color: #e8d3b9;
+    border: 1px solid #4b2e0e;
+    border-radius: 8px;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Sorcerer's Stone image styling */
+  .sorcerers-stone-image {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Expecto Patronum button styling */
+  .expecto-patronum-button {
+    margin-top: 15px;
+    padding: 15px 20px;
+    background-color: #ffdb58; /* Magical golden color */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #4b2e0e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .expecto-patronum-button:hover {
+    background-color: #f1c232;
+    color: #fff;
+  }
+  
+  /* Dragging ghost effect */
+  .sortable-ghost {
+    opacity: 0.5;
+    border: 2px dashed #4b2e0e;
+  }
+  
+  /* Last Dropped Image Display */
+  .dropped-item-display {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffdb58;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  .dropped-image {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #4b2e0e;
+  }
